@@ -9,4 +9,4 @@ This project was created to practice web development. The following concepts wer
 The website itself contains different stuff about the game Guardian Tales:
 - Raid Infographics  
 
-This was made possible by following The Odin Project.
+This was made possible through lessons learned The Odin Project.
