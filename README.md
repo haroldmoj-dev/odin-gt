@@ -1,4 +1,12 @@
-# odin
+# odin-gt
 
-Made by Harold Mojica.
-Special thanks to TheOdinProject.
+This project was created to practice web development. The following concepts were applied to this website:
+- Basic html structure
+- Inputting images
+- Linking text to other pages
+- Linking text to external websites  
+
+The website itself contains different stuff about the game Guardian Tales:
+- Raid Infographics  
+
+This was made possible by following The Odin Project.
