@@ -4,9 +4,23 @@
     box-sizing: border-box;
     border: 1px solid red;
     font-family: Arial;
+    color: #b3b3b3;
 }
 
-/* Basic Text Elements */
+body {
+    background-color: #121212
+}
+
+/* Text Elements */
+.navigation {
+    color: #1ED761;
+    display: block;
+}
+
+h1 {
+    color: #ffffff
+}
+
 h2, p, ul, ol {
     padding: 0px 0px 10px;
 }
@@ -15,16 +29,12 @@ ul, ol {
     padding-left: 20px;
 }
 
-.navigation {
-    display: block;
-}
-
 /* Partitions */
-h1, div, .navigation {
+.city {
     margin: 20px;
 }
 
-div.building {
+.building {
     margin: 0px 0px 20px;
 }
 
