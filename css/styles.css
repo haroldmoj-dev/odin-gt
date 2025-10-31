@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -35,12 +35,18 @@ a {
 }
 
 /* Partitions */
+.province {
+    width: 80%; 
+    margin: 0 auto;
+
+}
+
 .city {
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .building {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 
