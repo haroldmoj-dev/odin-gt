@@ -23,7 +23,7 @@ body {
 }
 
 h1, h2 {
-    color: #ffffff;
+    color: white;
 }
 
 h2, p, ul, ol {
@@ -39,8 +39,29 @@ a {
 }
 
 /* Partitions */
+.top {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.navbar {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar .right {
+    display: flex;
+    gap: 2rem;
+}
+
 .province {
-    min-width: 600px;
     width: 80%; 
     margin: 0 auto;
 }
