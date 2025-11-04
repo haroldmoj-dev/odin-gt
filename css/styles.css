@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -23,7 +25,7 @@ body {
 }
 
 h1, h2 {
-    color: white;
+    color: #F8F8F8;
 }
 
 h2, p, ul, ol {
@@ -35,25 +37,36 @@ ul, ol {
 }
 
 a {
+    text-decoration: none;
     color: #1ED761;
 }
 
 /* Partitions */
 .top {
     border-bottom: 1px solid #b3b3b3;
+    background-color: #121212;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
     width: 80%; 
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul {
     list-style-type: none;
     padding: 0;
+}
+
+.navbar .left {
+    font-family: "Google Sans Code", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .navbar .right {
@@ -64,6 +77,11 @@ a {
 .province {
     width: 80%; 
     margin: 0 auto;
+}
+
+h1.city {
+    margin: 3rem 1.5rem;
+    font-style: italic;
 }
 
 .city {
@@ -85,7 +103,7 @@ a {
 .raid .building img {
     width: 23rem;
     height: auto;
-    border: 1px solid white;
+    border: 1px solid #F8F8F8;
 }
 
 
