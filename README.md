@@ -5,7 +5,7 @@ This project was created to practice web development. The following concepts wer
 - Inputting images
 - Linking text to other pages
 - Linking text to external websites  
-- Basic CSS
+- Basic CSS with Flex
 
 The website itself contains different stuff about the game Guardian Tales:
 - Raid infographics  

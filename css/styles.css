@@ -49,8 +49,21 @@ a {
     margin: 1.5rem;
 }
 
-.building {
-    margin: 1rem 0;
+/* Raid */
+.city.raid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.raid .building {
+    width: 23rem;
+}
+
+.raid .building img {
+    width: 23rem;
+    height: auto;
 }
 
 
